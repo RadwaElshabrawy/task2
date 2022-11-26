@@ -13,10 +13,10 @@ jobs:
 
 
     steps:
-      - name: 'Testing Github action'
-        run: pwd
+      - name: 'Before'
+        run: ls
 
+      - uses: action/checkout@v3
 
-
-      - name: 'Testing Printing'
-        run: echo Radwa
+       - name: 'After'
+        run: ls
