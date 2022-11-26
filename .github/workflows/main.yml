@@ -12,12 +12,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'Before'
-        run: ls
-
       - uses: actions/checkout@v3
 
-      - name: 'After'  
-        run: ls
+      - name: "Login to Docker hub"  
+        run: docker login --username radwaelshabrawy --password dckr_pat_-uOPvvFHWhAM5Z-94_w2rxo2tuw
 
      
