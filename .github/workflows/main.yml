@@ -13,5 +13,10 @@ jobs:
 
 
     steps:
-      - name: 'Printing Folder contents'
-        run: ls
+      - name: 'Testing Github action'
+        run: pwd
+
+
+
+      - name: 'Testing Printing'
+        run: echo Radwa
